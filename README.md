@@ -82,11 +82,13 @@ O modelo foi construído com base nos conceitos de MER e DER utilizando o **Orac
 ## 🗃 Arquivos entregues no repositório
 
 ```
-cap_01/
-├── modelo.dmd                  # Modelo criado no Oracle SQL Developer Data Modeler
-├── DER.png                    # Diagrama visual do modelo relacional
-├── README.md                  # Documentação explicativa do MER
-└── exemplos_consultas.sql     # Exemplos de consultas SQL (opcional)
+.
+├── README.md               # Documentação explicativa do projeto
+├── farm_tech.dmd           # Arquivo do Oracle SQL Data Modeler (modelo relacional)
+├── farm_tech.png           # Imagem exportada do DER relacional
+├── logo-fiap.png           # Logo institucional da FIAP (para apresentações/README)
+└── farm_tech/              # Diretório reservado para possíveis arquivos complementares
+
 ```
 
 ---
