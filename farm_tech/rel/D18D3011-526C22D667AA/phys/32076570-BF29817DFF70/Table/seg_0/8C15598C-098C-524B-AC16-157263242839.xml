@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="aplicacao_agua" directorySegmentName="seg_0" id="8C15598C-098C-524B-AC16-157263242839">
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_aplicacao" id="17B7CF50-63C9-107D-5FB3-A53CEFBEFF48">
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="data_hora" id="2F152379-C4AD-97C4-E7F1-3264EF7AAFFE">
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="quantidade_litros" id="3034C0AE-F314-76A2-64FF-E7A2F80D1E27">
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_cultura" id="6CEAFB34-1C5D-1DBA-5849-ECE13D477A79">
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_aplicacao_cultura" id="CA91FAE9-0FC3-FE06-E9AD-849EF7AD0BB1">
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="aplicacao_agua_PK" id="DBE9A9EB-E122-150B-CBD9-43442D597B1F">
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

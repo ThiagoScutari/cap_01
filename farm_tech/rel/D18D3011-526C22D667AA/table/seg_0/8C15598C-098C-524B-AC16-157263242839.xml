@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C15598C-098C-524B-AC16-157263242839" name="aplicacao_agua">
+<sourceDDLFile>teste.sql</sourceDDLFile>
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<importedID>ED3158EC-E0FC-CEEC-2481-0695743097BC</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_aplicacao" id="17B7CF50-63C9-107D-5FB3-A53CEFBEFF48">
+<sourceDDLFile>teste.sql</sourceDDLFile>
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<importedID>05F6B16B-448C-07C4-D18E-1413410A8D51</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>0CD65138-5DC5-9ACF-4F94-2B56476FF837</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cultura" id="6CEAFB34-1C5D-1DBA-5849-ECE13D477A79">
+<sourceDDLFile>teste.sql</sourceDDLFile>
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<importedID>DE4A003A-82C6-B26D-4F78-7A9314701FAA</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>0CD65138-5DC5-9ACF-4F94-2B56476FF837</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9AB4F803-2DB5-564A-1487-F0A8ECF5A88E" referredColumn="B24C3879-D3EE-76B3-AE25-90BD2BB32E35"/>
+</associations>
+</Column>
+<Column name="data_hora" id="2F152379-C4AD-97C4-E7F1-3264EF7AAFFE">
+<sourceDDLFile>teste.sql</sourceDDLFile>
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<importedID>31999D82-5982-39B8-A611-F488808B0C09</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>18C5B8C5-E72C-9BD7-AB3A-C12764851EAB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade_litros" id="3034C0AE-F314-76A2-64FF-E7A2F80D1E27">
+<sourceDDLFile>teste.sql</sourceDDLFile>
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<importedID>8B2EAE1F-CF2C-C0FB-90FF-B2A7FF780E87</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>D6092C0E-4ECA-7F84-F651-8E6720675B90</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="quantidade_litros &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DBE9A9EB-E122-150B-CBD9-43442D597B1F" name="aplicacao_agua_PK">
+<sourceDDLFile>teste.sql</sourceDDLFile>
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<importedID>AEA59606-D3FE-152D-AAB1-72BC67502DAB</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17B7CF50-63C9-107D-5FB3-A53CEFBEFF48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA91FAE9-0FC3-FE06-E9AD-849EF7AD0BB1" name="fk_aplicacao_cultura">
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CEAFB34-1C5D-1DBA-5849-ECE13D477A79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="cultura" directorySegmentName="seg_0" id="C5C7CF0B-20EB-D729-E41D-B0FEE9BB5977">
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nome" id="32155BA6-1508-1BE4-E20E-011257EAF106">
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="area_hectares" id="7ED9C761-A888-638F-A1D5-B203447AC2AA">
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_cultura" id="B24C3879-D3EE-76B3-AE25-90BD2BB32E35">
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="cultura_PK" id="4D416922-7910-1FFB-6B45-D45A0A4AD56B">
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

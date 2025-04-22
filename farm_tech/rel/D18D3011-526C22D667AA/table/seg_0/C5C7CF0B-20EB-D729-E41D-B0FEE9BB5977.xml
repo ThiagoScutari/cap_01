@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5C7CF0B-20EB-D729-E41D-B0FEE9BB5977" name="cultura">
+<sourceDDLFile>teste.sql</sourceDDLFile>
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<importedID>0E5BF790-2ABA-2F29-3B45-2ED55A24E180</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cultura" id="B24C3879-D3EE-76B3-AE25-90BD2BB32E35">
+<sourceDDLFile>teste.sql</sourceDDLFile>
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<importedID>C4451BB4-8E5D-9F65-A2EC-712FB177EE24</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>0CD65138-5DC5-9ACF-4F94-2B56476FF837</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="32155BA6-1508-1BE4-E20E-011257EAF106">
+<sourceDDLFile>teste.sql</sourceDDLFile>
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<importedID>D4C6E1E2-1FD3-29F7-0B12-C7236AE17646</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9E865903-AF34-C749-B9CB-9D54A7BD120B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="area_hectares" id="7ED9C761-A888-638F-A1D5-B203447AC2AA">
+<sourceDDLFile>teste.sql</sourceDDLFile>
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<importedID>3D4FC66D-8CBA-E109-3735-B14C6A575E52</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>D6092C0E-4ECA-7F84-F651-8E6720675B90</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="area_hectares &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D416922-7910-1FFB-6B45-D45A0A4AD56B" name="cultura_PK">
+<sourceDDLFile>teste.sql</sourceDDLFile>
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<importedID>28B3FE51-9F80-011E-91D0-4AE72CCAD40B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B24C3879-D3EE-76B3-AE25-90BD2BB32E35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

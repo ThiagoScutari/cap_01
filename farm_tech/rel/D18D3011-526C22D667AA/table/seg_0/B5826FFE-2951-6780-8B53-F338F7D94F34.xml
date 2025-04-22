@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5826FFE-2951-6780-8B53-F338F7D94F34" name="sensor">
+<sourceDDLFile>teste.sql</sourceDDLFile>
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<importedID>9F071D86-79F2-5994-7C9D-61B286FC08A5</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sensor" id="79D9A996-83B3-5CCA-5E07-B7B33F71DA07">
+<sourceDDLFile>teste.sql</sourceDDLFile>
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<importedID>E8412570-00A8-55EA-6AC4-A07BF42EFC81</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>0CD65138-5DC5-9ACF-4F94-2B56476FF837</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="FAAD2063-1E43-17F2-3BF6-1C2847667C88">
+<sourceDDLFile>teste.sql</sourceDDLFile>
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<importedID>987080C4-FE5C-7536-C291-1DADC864BB5A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>67F04099-7D0D-D63F-443F-F0419EAD5E37</domain>
+<listOfValues>
+<valueDef value="S1" description=""/>
+<valueDef value="S2" description=""/>
+<valueDef value="S3" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="857AD9BD-43BA-FB87-C7DE-3A13ECD3A586">
+<sourceDDLFile>teste.sql</sourceDDLFile>
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<importedID>82738C43-C3D4-D916-1DD0-4FD4D34F54BD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8BE171C7-7F74-EEEB-16EF-C529C27365B1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EECAD94B-F5A2-7DA6-96BB-FCA499820C64" name="sensor_PK">
+<sourceDDLFile>teste.sql</sourceDDLFile>
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<importedID>FD8744AC-2D9D-8826-CBD3-8191FDE567AA</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79D9A996-83B3-5CCA-5E07-B7B33F71DA07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

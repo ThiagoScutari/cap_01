@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="farm_tech" id="C225DA22-59C5-1F09-A60F-C2F8E328AD21" version="3.5">
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:50:02 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C225DA22-59C5-1F09-A60F-C2F8E328AD21</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="138D85D5-119B-E85A-D3DF-E8D1E8A5AC19">
+<designStoragePath>C:\teste</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

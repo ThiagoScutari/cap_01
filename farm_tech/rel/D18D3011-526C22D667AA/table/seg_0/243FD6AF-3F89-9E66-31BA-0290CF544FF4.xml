@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="243FD6AF-3F89-9E66-31BA-0290CF544FF4" name="leitura_sensor">
+<sourceDDLFile>teste.sql</sourceDDLFile>
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<importedID>EA54F0D8-6AA2-B4B3-AD4F-09AC1A0B4A08</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_leitura" id="13F1C4A8-5AD2-03D3-D9E2-641F0B95A4B3">
+<sourceDDLFile>teste.sql</sourceDDLFile>
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<importedID>B6EF6CFA-5AAD-B505-898B-EB974B302B5A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>0CD65138-5DC5-9ACF-4F94-2B56476FF837</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_sensor" id="213EA12F-704B-5F69-FB50-94AD2199EE10">
+<sourceDDLFile>teste.sql</sourceDDLFile>
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<importedID>9F17B92F-022D-7FDB-530C-CBEE71A688C7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>0CD65138-5DC5-9ACF-4F94-2B56476FF837</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2A7FE08-3C32-7533-BD4B-D8FD39AFD940" referredColumn="79D9A996-83B3-5CCA-5E07-B7B33F71DA07"/>
+</associations>
+</Column>
+<Column name="id_cultura" id="C3DBBB62-8917-20B4-119F-378C16B74EE9">
+<sourceDDLFile>teste.sql</sourceDDLFile>
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<importedID>E8BE12E1-67ED-6637-6D85-101828A8206D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>0CD65138-5DC5-9ACF-4F94-2B56476FF837</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DBEB3D5E-772B-FF13-00BF-9EF074A92586" referredColumn="B24C3879-D3EE-76B3-AE25-90BD2BB32E35"/>
+</associations>
+</Column>
+<Column name="data_hora" id="9508CBB7-20E4-C784-D559-4A761191FB3D">
+<sourceDDLFile>teste.sql</sourceDDLFile>
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<importedID>C4E05D4E-D62E-B6AA-1D1B-10A628F95F24</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>18C5B8C5-E72C-9BD7-AB3A-C12764851EAB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor" id="8CEAE730-358D-7003-84AE-18CEAB35B4C0">
+<sourceDDLFile>teste.sql</sourceDDLFile>
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<importedID>06C3F14A-3422-2853-75D7-D8F565EAAA99</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>D6092C0E-4ECA-7F84-F651-8E6720675B90</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5DED2F58-72AD-B265-522E-49716597A46B" name="leitura_sensor_PK">
+<sourceDDLFile>teste.sql</sourceDDLFile>
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<importedID>59D3E0EC-3F00-96A1-5460-E5D322D14956</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13F1C4A8-5AD2-03D3-D9E2-641F0B95A4B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A3FDC5B-4D6C-2A8D-0B30-7169BDC60783" name="fk_leitura_sensor_cultura">
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3DBBB62-8917-20B4-119F-378C16B74EE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1669858D-8F48-4075-59A9-74632FFB386F" name="fk_leitura_sensor_sensor">
+<createdBy>007519</createdBy>
+<createdTime>2025-04-22 22:56:06 UTC</createdTime>
+<ownerDesignName>farm_tech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="213EA12F-704B-5F69-FB50-94AD2199EE10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
